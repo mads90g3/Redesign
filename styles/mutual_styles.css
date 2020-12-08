@@ -1,13 +1,20 @@
-body{
+body {
     background-color: #F2F2F2;
+
 }
 
 img {
     display: block;
 }
 
+.col{
+    font-family: 'Playfair Display', serif;
+}
+
 /*navigation*/
 nav {
+    text-transform: uppercase;
+    font-family: 'Playfair Display', serif;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -26,6 +33,7 @@ a {
     padding: 14px 16px;
     text-decoration: none;
 }
+
 /*Kontakt information i Footer*/
 #kontakt .section_wrapper {
     background-color: #D9CFB5;
