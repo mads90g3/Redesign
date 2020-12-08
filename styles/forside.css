@@ -1,25 +1,12 @@
-/*Kontakt information i Footer*/
-#kontakt .section_wrapper {
-    background-color:#D9CFB5;
-    display: grid;
-    grid-template-columns: 1fr;
-    column-gap: 3vw;
-    font-size: 2.5vw;
-    border-style: double;
-    border-color: #2D4E3A;
-
-}
-
-#kontakt .section_wrapper .col {
-    margin: 3vw;
-}
-
 /*Bestil bord/second_section*/
-#second_section .section_wrapper{
+#second_section .section_wrapper {
     display: grid;
     grid-template-columns: 1fr;
 }
-#second_section .col{
+
+#second_section .col {
     background-color: #2D4E3A;
     margin: 4vw;
 }
+
+/*Video baggrund*/

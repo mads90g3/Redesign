@@ -3,6 +3,41 @@ body{
 }
 
 img {
-    width: 100%;
     display: block;
+}
+
+/*navigation*/
+nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #2D4E3A;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+/*Kontakt information i Footer*/
+#kontakt .section_wrapper {
+    background-color: #D9CFB5;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 3vw;
+    font-size: 1vw;
+    border-style: double;
+    border-color: #2D4E3A;
+
+}
+
+#kontakt .section_wrapper .col {
+    margin: 3vw;
 }
