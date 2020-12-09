@@ -1,13 +1,17 @@
-body {
+
+main{
     background-color: #F2F2F2;
-
 }
-
+body {
+    background-color: #2D4E3A;
+    padding-right: 25px;
+}
 img {
     display: block;
 }
 
-.col{
+
+.section{
     font-family: 'Playfair Display', serif;
 }
 

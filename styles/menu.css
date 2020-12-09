@@ -1,3 +1,35 @@
-#menu_section .col{
+
+#menu_section{
+    padding: 100px;
+}
+.julemenu_wrapper{
     text-align: center;
+    padding-bottom: 20px;
+}
+.p1{
+    text-decoration: underline;
+    text-decoration-color: #2D4E3A;
+}
+
+.menukort_wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.col2{
+    text-align: right;
+}
+h2{
+    text-decoration: underline;
+    text-decoration-color: #2D4E3A;
+}
+
+h3{
+    text-align: center;
+    text-decoration-line: underline;
+    text-decoration-color: #2D4E3A;
+}
+
+.julemenu_wrapper .col h2{
+    text-decoration: none;
 }
