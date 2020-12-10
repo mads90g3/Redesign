@@ -1,6 +1,6 @@
 
 #menu_section{
-    padding: 100px;
+    padding: 120px;
 }
 .julemenu_wrapper{
     text-align: center;
@@ -14,6 +14,7 @@
 .menukort_wrapper{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    padding-bottom: 20px;
 }
 
 .col2{
@@ -23,8 +24,13 @@ h2{
     text-decoration: underline;
     text-decoration-color: #2D4E3A;
 }
+h4{
+    text-decoration: underline;
+    text-decoration-color: #2D4E3A;
 
-h3{
+}
+
+#menu_section h3{
     text-align: center;
     text-decoration-line: underline;
     text-decoration-color: #2D4E3A;
@@ -32,4 +38,14 @@ h3{
 
 .julemenu_wrapper .col h2{
     text-decoration: none;
+}
+
+.vin_wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 30px;
+}
+.drikke_wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
