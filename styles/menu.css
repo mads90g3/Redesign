@@ -49,3 +49,7 @@ h4{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
+.image_wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
