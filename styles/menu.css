@@ -1,55 +1,64 @@
-
-#menu_section{
+#menu_section {
     padding: 120px;
 }
-.julemenu_wrapper{
+
+.julemenu_wrapper {
     text-align: center;
     padding-bottom: 20px;
 }
-.p1{
+
+.p1 {
     text-decoration: underline;
     text-decoration-color: #2D4E3A;
 }
 
-.menukort_wrapper{
+.menukort_wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding-bottom: 20px;
 }
 
-.col2{
+.col2 {
     text-align: right;
 }
-h2{
+
+h2 {
     text-decoration: underline;
     text-decoration-color: #2D4E3A;
 }
-h4{
+
+#menu_section h2 {
+    text-align: center;
+}
+
+h4 {
     text-decoration: underline;
     text-decoration-color: #2D4E3A;
 
 }
 
-#menu_section h3{
+#menu_section h3 {
     text-align: center;
     text-decoration-line: underline;
     text-decoration-color: #2D4E3A;
 }
 
-.julemenu_wrapper .col h2{
+.julemenu_wrapper .col h2 {
     text-decoration: none;
 }
 
-.vin_wrapper{
+.vin_wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-bottom: 30px;
 }
-.drikke_wrapper{
+
+.drikke_wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
-.image_wrapper{
+
+.image_wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
