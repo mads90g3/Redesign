@@ -1,51 +1,86 @@
-
 body {
     background-color: #F2F2F2;
 }
+
 img {
     display: block;
 }
 
-
-.section{
+.section {
     font-family: 'Playfair Display', serif;
 }
 
 /*navigation*/
-nav {
-    text-transform: uppercase;
-    font-family: 'Playfair Display', serif;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #2D4E3A;
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
 
-a {
-    float: left;
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
 
-/*Kontakt information i Footer*/
 #kontakt .section_wrapper {
     background-color: #D9CFB5;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 3vw;
-    font-size: 1vw;
+    font-size: 1rem;
     border-style: double;
     border-color: #2D4E3A;
-
+    margin: 3vw;
 }
 
-#kontakt .section_wrapper .col {
-    margin: 3vw;
+.hidden {
+    opacity: 0;
+    transform: translateX(-100%);
+}
+
+#menuknap {
+    display: inline-block;
+}
+
+#menu {
+    list-style-type: none;
+    transition: transform 0.3s;
+    transform-origin: top left;
+}
+
+@media only screen and (min-width: 600px) {
+    a {
+        float: left;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    nav {
+        text-transform: uppercase;
+        font-family: 'Playfair Display', serif;
+        list-style-type: none;
+        margin: 0 auto;
+        padding: 0;
+        overflow: hidden;
+        background-color: #2D4E3A;
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+
+    /*Kontakt information i Footer*/
+    #kontakt .section_wrapper {
+        background-color: #D9CFB5;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 3vw;
+        font-size: 1rem;
+        border-style: double;
+        border-color: #2D4E3A;
+
+    }
+
+    #kontakt .section_wrapper .col {
+        margin: 3vw;
+    }
+
+    #menuknap {
+        display: none;
+    }
+
+    #menu.hidden {
+        transform: translateX(0);
+        opacity: 1;
+    }
 }
