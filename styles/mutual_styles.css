@@ -36,15 +36,24 @@ img {
     transform-origin: top left;
 }
 
-@media only screen and (min-width: 600px) {
-    a {
-        float: left;
-        display: block;
-        color: white;
+@media only screen and (max-width: 600px) {
+    nav a {
+        height: 230px;
+        flex-direction: column;
         text-align: center;
-        padding: 14px 16px;
+        text-transform: uppercase;
+        font-family: 'Playfair Display', serif;
+        color: #F2F2F2;
         text-decoration: none;
     }
+
+    nav {
+        background-color: #2D4E3A;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+
 
     nav {
         text-transform: uppercase;
@@ -57,6 +66,15 @@ img {
         position: fixed;
         top: 0;
         width: 100%;
+    }
+
+    a {
+        float: left;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
     }
 
     /*Kontakt information i Footer*/
@@ -82,5 +100,9 @@ img {
     #menu.hidden {
         transform: translateX(0);
         opacity: 1;
+    }
+
+    #menu a {
+        display: inline-block;
     }
 }

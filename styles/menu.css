@@ -43,34 +43,8 @@ h2 {
     position: relative;
 }
 
-ul {
-    position: absolute;
-    margin: 20px;
-    width: auto;
-}
 
-.topnav {
-    overflow: hidden;
-}
 
-.topnav a {
-    float: right;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-}
-
-@media only screen and (min-width: 700px) {
-    .container h2 {
-        text-decoration: none;
-        font-size: 3rem;
-        position: absolute;
-        top: 15%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
-}
 
 #menu_section h2 {
     text-align: center;
@@ -109,10 +83,48 @@ img {
 
 .drikke_wrapper {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
 }
 
 .image_wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
+}
+
+@media only screen and (min-width: 700px) {
+    .container h2 {
+        text-decoration: none;
+        font-size: 3rem;
+        position: absolute;
+        top: 15%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    /*
+    ul {
+        position: absolute;
+        margin: 20px;
+        width: auto;
+    }
+*/
+
+    topnav {
+        overflow: hidden;
+    }
+
+    /*
+    .topnav a {
+        float: left;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+*/
+
+    .drikke_wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 }
