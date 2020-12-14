@@ -74,7 +74,6 @@ img {
         text-align: center;
         text-transform: uppercase;
         font-family: 'Playfair Display', serif;
-        color: #2D4E3A;
         text-decoration: none;
 
     }
@@ -132,7 +131,6 @@ nav {
         margin: 0 auto;
         padding: 0;
         overflow: hidden;
-        background-color: #2D4E3A;
         position: fixed;
         top: 0;
         width: 100%;
