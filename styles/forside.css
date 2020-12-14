@@ -23,10 +23,13 @@ img{
     margin: 30px;
 }
 
+#first_section .img_col1{
+    width: 38vw;
+    height: auto;
+}
+
 /*Splash forside*/
 #forside img {
     width: 100vw;
-    height: 100vw;
-
-
+    height: 70vw;
 }
