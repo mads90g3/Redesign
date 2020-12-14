@@ -1,3 +1,12 @@
+*{
+    margin: 0;
+}
+
+img{
+    display: block;
+    width: 100%;
+}
+
 /*Bestil bord/second_section*/
 #second_section .section_wrapper {
     display: grid;
@@ -9,7 +18,15 @@
     margin: 4vw;
 }
 
-/*Video baggrund*/
-.video_wrapper {
-    padding-top: 40px;
+/*section*/
+#first_section .section_wrapper{
+    margin: 30px;
+}
+
+/*Splash forside*/
+#forside img {
+    width: 100vw;
+    height: 100vw;
+
+
 }
