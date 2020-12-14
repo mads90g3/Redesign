@@ -1,10 +1,16 @@
-*{
+* {
     margin: 0;
 }
 
-img{
+img {
     display: block;
     width: 100%;
+}
+
+h2,
+h3 {
+    text-decoration: underline;
+    text-decoration-color: #2D4E3A;
 }
 
 /*Bestil bord/second_section*/
@@ -19,13 +25,16 @@ img{
 }
 
 /*section*/
-#first_section .section_wrapper{
-    margin: 30px;
+#first_section .section_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 120px;
 }
 
-#first_section .img_col1{
+#first_section .img_col1 {
     width: 38vw;
     height: auto;
+    margin-left: 30px;
 }
 
 /*Splash forside*/
