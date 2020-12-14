@@ -28,14 +28,43 @@ img {
     transform: translateX(-100%);
 }
 
+#menu {
+    list-style-type: none;
+    transition: transform 0.3s;
+    transform-origin: top right;
+}
+
 #menuknap {
     display: inline-block;
+    position: absolute;
+    top: 1vw;
+    left: 93vw;
 }
 
 #menu {
     list-style-type: none;
     transition: transform 0.3s;
     transform-origin: top left;
+}
+
+#menuknap_sprite {
+    background-image: url(/Artboard_2.svg);
+    width: 5vw;
+    height: 5vw;
+    background-size: cover;
+}
+
+#exit_knap {
+    position: absolute;
+    top: 1vw;
+    left: 93vw;
+}
+
+#exit_sprite {
+    background-image: url(/Artboard_3.svg);
+    width: 5vw;
+    height: 5vw;
+    background-size: cover;
 }
 
 @media only screen and (max-width: 600px) {
@@ -47,6 +76,7 @@ img {
         font-family: 'Playfair Display', serif;
         color: #2D4E3A;
         text-decoration: none;
+
     }
 
     a:hover {
