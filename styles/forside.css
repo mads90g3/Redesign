@@ -3,41 +3,50 @@
 }
 
 img {
-    display: block;
-    width: 100vw;
-}
-
-nav img {
-    width: 20vw;
-    height: auto;
-}
-
-
-/*Bestil bord/second_section*/
-#second_section {
-    margin: 120px;
-}
-
-h5 {
-    color: #2D4E3A;
-}
-
-
-/*section*/
-#first_section .section_wrapper {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin: 120px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
 }
 
-#first_section .img_col1 {
-    width: 38vw;
-    height: auto;
-    margin-left: 30px;
-}
+@media only screen and (min-width: 600px) {
 
-/*Splash forside*/
-#forside img {
-    width: 100vw;
-    height: auto;
+    img {
+        display: block;
+        width: 100vw;
+    }
+
+    nav img {
+        width: 20vw;
+        height: auto;
+    }
+
+
+    /*Bestil bord/second_section*/
+    #second_section {
+        margin: 120px;
+    }
+
+    h5 {
+        color: #2D4E3A;
+    }
+
+
+    /*section*/
+    #first_section .section_wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 120px;
+    }
+
+    #first_section .img_col1 {
+        width: 38vw;
+        height: auto;
+        margin-left: 30px;
+    }
+
+    /*Splash forside*/
+    #forside img {
+        width: 100vw;
+        height: auto;
+    }
 }
