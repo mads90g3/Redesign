@@ -14,10 +14,11 @@ nav img {
 
 
 /*Bestil bord/second_section*/
-#second_section{
+#second_section {
     margin: 120px;
 }
-h5{
+
+h5 {
     color: #2D4E3A;
 }
 
@@ -38,5 +39,5 @@ h5{
 /*Splash forside*/
 #forside img {
     width: 100vw;
-    height: 70vw;
+    height: auto;
 }
