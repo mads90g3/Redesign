@@ -4,9 +4,12 @@
 
 img {
     display: block;
-    width: 100%;
+    width: 100vw;
 }
-
+nav img{
+    width: 20vw;
+    height: auto;
+}
 h2,
 h3 {
     text-decoration: underline;
