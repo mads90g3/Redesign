@@ -54,7 +54,27 @@ img {
 
 @media only screen and (min-width: 600px) {
 
+    /*
+    ul {
+        position: absolute;
+        margin: 20px;
+        width: auto;
+    }
+*/
 
+    topnav {
+        overflow: hidden;
+    }
+
+    /*
+    .topnav a {
+        float: left;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+*/
     nav {
         text-transform: uppercase;
         font-family: 'Playfair Display', serif;
@@ -63,7 +83,7 @@ img {
         padding: 0;
         overflow: hidden;
         background-color: #2D4E3A;
-        position: fixed;
+        /*        position: fixed;*/
         top: 0;
         width: 100%;
     }

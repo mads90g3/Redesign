@@ -39,7 +39,6 @@ h2 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
     position: relative;
 }
 
@@ -91,7 +90,7 @@ img {
     grid-template-columns: 1fr 1fr;
 }
 
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 600px) {
     .container h2 {
         text-decoration: none;
         font-size: 3rem;
@@ -101,27 +100,7 @@ img {
         transform: translate(-50%, -50%);
     }
 
-    /*
-    ul {
-        position: absolute;
-        margin: 20px;
-        width: auto;
-    }
-*/
 
-    topnav {
-        overflow: hidden;
-    }
-
-    /*
-    .topnav a {
-        float: left;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-        font-size: 17px;
-    }
-*/
 
     .drikke_wrapper {
         display: grid;
