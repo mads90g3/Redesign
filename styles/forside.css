@@ -1,32 +1,42 @@
-*{
+* {
     margin: 0;
 }
 
-img{
+img {
     display: block;
-    width: 100%;
+    width: 100vw;
 }
+
+nav img {
+    width: 20vw;
+    height: auto;
+}
+
 
 /*Bestil bord/second_section*/
-#second_section .section_wrapper {
-    display: grid;
-    grid-template-columns: 1fr;
+#second_section{
+    margin: 120px;
+}
+h5{
+    color: #2D4E3A;
 }
 
-#second_section .col {
-    background-color: #2D4E3A;
-    margin: 4vw;
-}
 
 /*section*/
-#first_section .section_wrapper{
-    margin: 30px;
+#first_section .section_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 120px;
+}
+
+#first_section .img_col1 {
+    width: 38vw;
+    height: auto;
+    margin-left: 30px;
 }
 
 /*Splash forside*/
 #forside img {
     width: 100vw;
-    height: 100vw;
-
-
+    height: 70vw;
 }
