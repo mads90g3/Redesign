@@ -4,6 +4,7 @@ body {
 
 img {
     display: block;
+    width: 100%;
 }
 
 .section {
@@ -38,21 +39,33 @@ img {
 
 @media only screen and (max-width: 600px) {
     nav a {
-        height: 230px;
+        /*        height: 230px;*/
         flex-direction: column;
         text-align: center;
         text-transform: uppercase;
         font-family: 'Playfair Display', serif;
-        color: #F2F2F2;
+        color: #2D4E3A;
         text-decoration: none;
     }
 
-    nav {
-        background-color: #2D4E3A;
+    a:hover {
+        background-color: #7fa08c;
+        transition: 0.9s;
     }
+
+    /*
+nav {
+    background-color: #2D4E3A;
+}
+*/
 }
 
 @media only screen and (min-width: 600px) {
+
+    a:hover {
+        background-color: #7fa08c;
+        transition: 0.9s;
+    }
 
     /*
     ul {
@@ -62,9 +75,12 @@ img {
     }
 */
 
+
+    /*
     topnav {
         overflow: hidden;
     }
+*/
 
     /*
     .topnav a {
@@ -75,6 +91,9 @@ img {
         font-size: 17px;
     }
 */
+
+
+
     nav {
         text-transform: uppercase;
         font-family: 'Playfair Display', serif;
@@ -83,7 +102,7 @@ img {
         padding: 0;
         overflow: hidden;
         background-color: #2D4E3A;
-        /*        position: fixed;*/
+        position: fixed;
         top: 0;
         width: 100%;
     }
@@ -99,7 +118,7 @@ img {
 
     /*Kontakt information i Footer*/
     #kontakt .section_wrapper {
-        background-color: #D9CFB5;
+        background-color: #F2F2F2;
         display: grid;
         grid-template-columns: 1fr 1fr;
         column-gap: 3vw;
