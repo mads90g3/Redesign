@@ -9,7 +9,18 @@
     margin: 4vw;
 }
 
-/*Video baggrund*/
-.video_wrapper {
-    padding-top: 40px;
+/*section*/
+#first_section .section_wrapper{
+    margin: 30px;
+}
+
+/*Splash forside*/
+#forside {
+    width: 100vw;
+    height: 100vw;
+    background-image: url(billeder/billede_front.jpg);
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr auto 1fr;
 }
