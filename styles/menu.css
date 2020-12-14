@@ -2,8 +2,8 @@
     padding: 120px;
 }
 
-#kartoffel_splash img{
-   width: 100vw;
+#kartoffel_splash img {
+    width: 100%;
     height: auto;
 
 }
@@ -105,7 +105,7 @@ h4 {
     .image_wrapper {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        margin: 5vw;
+
         column-gap: 2vw;
         grid-row-gap: 2vw;
         object-fit: cover;
