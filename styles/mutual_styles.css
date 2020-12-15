@@ -136,10 +136,6 @@ img {
         background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
     }
 
-    .logo {
-        filter: drop-shadow(2px 2px 2px);
-    }
-
 
     a {
         float: left;
