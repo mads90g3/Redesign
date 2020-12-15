@@ -133,14 +133,14 @@ img {
         position: fixed;
         top: 0;
         width: 100%;
-        background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
+        background-color: white;
+/*        background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);*/
     }
 
-    /*
     .logo {
         filter: drop-shadow(2px 2px 2px);
     }
-*/
+
 
     a {
         float: left;
@@ -149,6 +149,7 @@ img {
         text-align: center;
         padding: 14px 16px;
         text-decoration: none;
+        color: #2D4E3A;
 
     }
 
