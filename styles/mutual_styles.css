@@ -133,7 +133,8 @@ img {
         position: fixed;
         top: 0;
         width: 100%;
-        background-color: white;
+        background: linear-gradient(to right, white , transparent);
+
 /*        background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);*/
     }
 
