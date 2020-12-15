@@ -2,6 +2,7 @@ window.addEventListener("load", sidenVises);
 
 function sidenVises() {
     console.log("sidenVises");
+    document.querySelector("#menuknap").classList.remove("hidden");
     document.querySelector("#menuknap").addEventListener("click", visMenu);
 }
 
