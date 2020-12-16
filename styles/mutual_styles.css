@@ -16,6 +16,7 @@ img {
     font-family: 'Playfair Display', serif;
 }
 
+
 #kontakt .section_wrapper {
     background-color: #F2F2F2;
     font-size: 1rem;
@@ -35,6 +36,8 @@ img {
     position: absolute;
     top: 1vw;
     left: 93vw;
+    width: 10px;
+    height: 10px;
 }
 
 #menu {
@@ -47,7 +50,7 @@ img {
 
 @media only screen and (min-width: 600px) {
 
-    .logo{
+    .logo {
         margin-right: auto;
     }
 
@@ -90,9 +93,11 @@ img {
         border-color: #2D4E3A;
 
     }
-    #kontakt h2{
+
+    #kontakt h2 {
         text-decoration-line: underline;
     }
+
     #kontakt .section_wrapper .col {
         margin: 3vw;
     }
