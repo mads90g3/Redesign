@@ -18,15 +18,23 @@ body {
     background-color: #ffffff;
 }
 
-.menukort_wrapper {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding-bottom: 20px;
+/*menukort*/
+
+.menukort_wrapper, .vin_wrapper{
+    padding-bottom: 30px;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
 }
 
-.col2 {
-    text-align: right;
+td,
+th {
+    text-align: left;
+    padding: 8px;
 }
+
+
 
 h2 {
     text-decoration: underline;
@@ -64,15 +72,16 @@ h4 {
     text-decoration: none;
 }
 
-.vin_wrapper {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin-bottom: 30px;
-}
 
+.drikke_wrapper h4{
+    padding: 10px;
+    padding-left: 0;
+}
 .drikke_wrapper {
     display: grid;
     grid-template-columns: 1fr;
+    padding-bottom: 30px;
+
 }
 
 .image_wrapper {
