@@ -36,7 +36,9 @@ img {
 
 @media only screen and (min-width: 600px) {
 
-
+    section p{
+        font-size: 20px;
+    }
     /*Bestil bord/second_section*/
     .bestil_bord a {
         border-style: double;

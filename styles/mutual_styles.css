@@ -50,6 +50,7 @@ img {
     align-items: center;
 }
 
+<<<<<<< HEAD
 a:hover {
     background-color: #7fa08c;
     transition: 0.9s;
@@ -84,6 +85,9 @@ ul {
     list-style: none;
     padding: 0;
 }
+=======
+
+>>>>>>> origin/master
 
 #menu.hidden {
     transform: translateX(0);
