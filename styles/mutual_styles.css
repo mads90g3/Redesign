@@ -90,7 +90,9 @@ img {
         border-color: #2D4E3A;
 
     }
-
+    #kontakt h2{
+        text-decoration-line: underline;
+    }
     #kontakt .section_wrapper .col {
         margin: 3vw;
     }
