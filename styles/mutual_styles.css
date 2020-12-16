@@ -1,10 +1,12 @@
+* {
+    margin: 0;
+}
+
 body {
     background-color: #F2F2F2;
 }
 
-* {
-    margin: 0;
-}
+
 
 img {
     display: block;
@@ -50,8 +52,7 @@ img {
     align-items: center;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 a:hover {
     background-color: #7fa08c;
     transition: 0.9s;
@@ -61,7 +62,7 @@ nav {
     text-transform: uppercase;
     font-family: 'Playfair Display', serif;
     list-style-type: none;
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
     position: fixed;
     width: 100%;
@@ -86,12 +87,7 @@ ul {
     list-style: none;
     padding: 0;
 }
-=======
-=======
 
->>>>>>> origin/master
-
->>>>>>> origin/master
 
 #menu.hidden {
     transform: translateX(0);
