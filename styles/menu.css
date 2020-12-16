@@ -1,7 +1,7 @@
 #kartoffel_splash img {
     width: 100%;
     height: auto;
-
+    padding-bottom: 30px;
 }
 
 .julemenu_wrapper {
@@ -20,9 +20,11 @@ body {
 
 /*menukort*/
 
-.menukort_wrapper, .vin_wrapper{
+.menukort_wrapper,
+.vin_wrapper {
     padding-bottom: 30px;
 }
+
 table {
     border-collapse: collapse;
     width: 100%;
@@ -45,6 +47,12 @@ h2 {
     text-decoration: none;
     font-size: 2rem;
 
+}
+
+#menu_section {
+    margin: 40px;
+    border-style: double;
+    border-color: #2D4E3A;
 }
 
 #menu_section h2 {
@@ -73,10 +81,11 @@ h4 {
 }
 
 
-.drikke_wrapper h4{
+.drikke_wrapper h4 {
     padding: 10px;
     padding-left: 0;
 }
+
 .drikke_wrapper {
     display: grid;
     grid-template-columns: 1fr;
