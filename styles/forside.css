@@ -36,16 +36,6 @@ img {
 
 @media only screen and (min-width: 600px) {
 
-    img {
-        display: block;
-        width: 100vw;
-    }
-
-    nav img {
-        width: 20vw;
-        height: auto;
-    }
-
 
     /*Bestil bord/second_section*/
     .bestil_bord a {
