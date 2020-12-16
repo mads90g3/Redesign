@@ -35,10 +35,8 @@ img {
 #menuknap {
     display: inline-block;
     position: absolute;
-    top: 1vw;
+    top: 2vw;
     left: 93vw;
-    width: 10px;
-    height: 10px;
 }
 
 #menu {
@@ -49,11 +47,38 @@ img {
     align-items: center;
 }
 
+a {
+    /*        float: left;*/
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+nav {
+    text-transform: uppercase;
+    font-family: 'Playfair Display', serif;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    position: fixed;
+    width: 100%;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+    padding: 0;
+}
+
 @media only screen and (min-width: 600px) {
 
-    .logo {
-        margin-right: auto;
-    }
+
 
     a:hover {
         background-color: #7fa08c;
@@ -74,7 +99,6 @@ img {
 
 
     a {
-        /*        float: left;*/
         display: block;
         color: white;
         text-align: center;
